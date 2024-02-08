@@ -1,0 +1,170 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+   background-color:#333333;
+  
+}
+#navigation{
+    height:40px;
+    width:35%;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.nav{
+    width:100px;
+    color:white;
+    text-align: center;
+}
+.nav:hover{
+    background-color:grey;
+    padding:8px;
+    cursor: pointer;
+    transition:0.3s;
+}
+#home{
+    border:1px solid black;
+    height:94.2vh;
+    background-image: url("../asset/tune.jpeg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: 50%;
+    color:white;
+    
+}
+#hc{
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   height:600px;
+   flex-direction: column;
+   padding-left:50px;
+   padding-right: 50px;
+   line-height: 2.0;
+   text-align: center;
+}
+h1{
+    font-size:50px;
+}
+h2{
+    font-size:30px;
+}
+p{
+    font-size:20px;
+}
+#music{
+    border:1px solid black;
+    background-color: #252529;
+    color:white;
+    text-align: center;
+    line-height:3.0;
+    
+}
+#music > h1{
+    font-size: 30px;
+    margin-top:30px;
+}
+#para{
+    display: block;
+    margin-left:130px;
+    margin-right:130px;
+}
+#btn1{
+    border:none;
+    padding:20px 5px;
+    background-color: rgba(255, 0, 0, 0.801);
+    color:white;
+}
+#vid-con{
+    text-align: center;
+    padding:100px;
+    line-height: 2.0;
+}
+#btn2{
+    border:none;
+    padding:15px;
+    background-color: rgba(0, 0, 255, 0.781);
+    color:white;
+}
+#colorfull{
+    text-align: center;
+    color:white;
+    line-height: 2.0;
+    height:70vh;
+    background-image:url("../asset/section-bg.jpeg");
+    background-repeat:no-repeat;
+    background-position:30%;
+    background-size:99.5%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    font-size: xx-large;
+}
+#giftcard{
+  display: flex;
+  
+  
+}
+#cards{
+    width:50%;
+    height:50vh;
+
+}
+#gift-con{
+    width:35%;
+    height: 40vh;
+    text-align:left;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    line-height:2.5;
+}
+#gp-foot{
+    border:1px solid black;
+    display:flex;
+    justify-content: center;
+    background-color:#252529;
+    
+}
+#p-foot{
+    width:70%;
+    display: flex;
+    justify-content: space-around;
+    line-height:1.5;
+
+    
+}
+li{
+    list-style-type: none;
+    font-size:25px;
+    color:rgba(240, 248, 255, 0.61);
+}
+#h{
+    font-size:30px;
+    border-bottom:1px solid grey;
+    color:azure;
+}
+footer{
+    height:50px;
+    background-color:#333333;
+    text-align:center;
+    line-height:50px;
+    color:azure;
+}
+li:hover{
+    cursor: pointer;
+}
+#btn1:hover{
+    cursor: pointer;
+    background-color: red;
+}
+#btn2:hover{
+    cursor: pointer;
+    background-color: blue;
+}
